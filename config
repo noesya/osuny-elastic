@@ -26,6 +26,9 @@ xpack.reporting.enabled: true
 xpack.security.secureCookies: true
 telemetry.enabled: false
 telemetry.optIn: false
+
+enterpriseSearch.host: 'http://localhost:3002'
+
 EOF
 
 if [[ -n "${CC_KIBANA_SECURITY_ENCRYPTION_KEY}" ]]; then
